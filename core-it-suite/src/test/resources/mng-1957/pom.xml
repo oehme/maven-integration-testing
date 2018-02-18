@@ -166,5 +166,15 @@ under the License.
         <jdkProperty6>PASSED</jdkProperty6>
       </properties>
     </profile>
+    <profile>
+      <!-- This will work for JDK 9 -->
+      <id>test-6g</id>
+      <activation>
+        <jdk>[9,10)</jdk>
+      </activation>
+      <properties>
+        <jdkProperty6>PASSED</jdkProperty6>
+      </properties>
+    </profile>
   </profiles>
 </project>
