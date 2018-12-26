@@ -23,8 +23,12 @@ under the License.
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>mng-5965-parallel-build-multiplies-work</groupId>
+  <parent>
+    <groupId>mng-5965-parallel-build-multiplies-work</groupId>
+    <artifactId>base-project</artifactId>
+    <version>0.1</version>
+  </parent>
+
   <artifactId>module-1</artifactId>
-  <version>0.1</version>
   <packaging>pom</packaging>
 </project>

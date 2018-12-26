@@ -3,7 +3,7 @@ package org.apache.maven.it;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.HashSet;
+import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Set;
 
@@ -17,7 +17,7 @@ public class MavenITmng5965ParallelBuildMultipliesWorkTest
 {
     public MavenITmng5965ParallelBuildMultipliesWorkTest()
     {
-        super( "[3.5.1,)" );
+        super( "[3.0,)" );
     }
 
     public void testItShouldOnlyRunEachTaskOnce()
@@ -31,7 +31,7 @@ public class MavenITmng5965ParallelBuildMultipliesWorkTest
         verifier.setAutoclean( false );
 
         verifier.setLogFileName( "log-only.txt" );
-        verifier.addCliOption( "-T10" );
+        verifier.addCliOption( "-T1" );
         // include an aggregator task so that the two goals end up in different task segments
         verifier.executeGoals( Arrays.asList( "clean", "install:help" ) );
         verifier.verifyErrorFreeLog();
@@ -51,7 +51,7 @@ public class MavenITmng5965ParallelBuildMultipliesWorkTest
     private void assertNoRepeatedLines( List<String> logLines )
         throws VerificationException
     {
-        Set<String> uniqueLines = new HashSet<>();
+        Set<String> uniqueLines = new LinkedHashSet<>();
         for ( String line : logLines )
         {
             if ( uniqueLines.contains( line ) )
