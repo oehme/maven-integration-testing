@@ -643,10 +643,10 @@ public class IntegrationTestSuite
         suite.addTestSuite( MavenITmng0731LegacyRepoLayoutTest.class );
         suite.addTestSuite( MavenITmng0680ParentBasedirTest.class );
         suite.addTestSuite( MavenITmng0674PluginParameterAliasTest.class );
-        suite.addTestSuite( MavenITmng0666IgnoreLegacyPomTest.class );*/
-        suite.addTestSuite( MavenITmng0557UserSettingsCliOptionTest.class );
-/*        suite.addTestSuite( MavenITmng0553SettingsAuthzEncryptionTest.class );
-        suite.addTestSuite( MavenITmng0522InheritedPluginMgmtConfigTest.class );
+        suite.addTestSuite( MavenITmng0666IgnoreLegacyPomTest.class );
+        suite.addTestSuite( MavenITmng0557UserSettingsCliOptionTest.class );*/
+        suite.addTestSuite( MavenITmng0553SettingsAuthzEncryptionTest.class );
+/*        suite.addTestSuite( MavenITmng0522InheritedPluginMgmtConfigTest.class );
         suite.addTestSuite( MavenITmng0507ArtifactRelocationTest.class );
         suite.addTestSuite( MavenITmng0505VersionRangeTest.class );
         suite.addTestSuite( MavenITmng0496IgnoreUnknownPluginParametersTest.class );
