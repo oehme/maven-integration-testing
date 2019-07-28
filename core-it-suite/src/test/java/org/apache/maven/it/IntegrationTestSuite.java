@@ -106,7 +106,7 @@ public class IntegrationTestSuite
         // -------------------------------------------------------------------------------------------------------------
         // suite.addTestSuite( MavenIT0108SnapshotUpdateTest.class ); -- MNG-3137
 
-        suite.addTestSuite( MavenITmng6506PackageAnnotationTest.class );
+/*        suite.addTestSuite( MavenITmng6506PackageAnnotationTest.class );
         suite.addTestSuite( MavenITmng6256SpecialCharsAlternatePOMLocation.class );
         suite.addTestSuite( MavenITmng6386BaseUriPropertyTest.class );
         suite.addTestSuite( MavenITmng6330RelativePath.class );
@@ -213,9 +213,9 @@ public class IntegrationTestSuite
         suite.addTestSuite( MavenITmng4768NearestMatchConflictResolutionTest.class );
         suite.addTestSuite( MavenITmng4765LocalPomProjectBuilderTest.class );
         suite.addTestSuite( MavenITmng4755FetchRemoteMetadataForVersionRangeTest.class );
-        suite.addTestSuite( MavenITmng4750ResolvedMavenProjectDependencyArtifactsTest.class );
+        suite.addTestSuite( MavenITmng4750ResolvedMavenProjectDependencyArtifactsTest.class );*/
         suite.addTestSuite( MavenITmng4747JavaAgentUsedByPluginTest.class );
-        suite.addTestSuite( MavenITmng4745PluginVersionUpdateTest.class );
+/*        suite.addTestSuite( MavenITmng4745PluginVersionUpdateTest.class );
         suite.addTestSuite( MavenITmng4729MirrorProxyAuthUsedByProjectBuilderTest.class );
         suite.addTestSuite( MavenITmng4721OptionalPluginDependencyTest.class );
         suite.addTestSuite( MavenITmng4720DependencyManagementExclusionMergeTest.class );
@@ -232,9 +232,9 @@ public class IntegrationTestSuite
         suite.addTestSuite( MavenITmng4625SettingsXmlInterpolationWithXmlMarkupTest.class );
         suite.addTestSuite( MavenITmng4618AggregatorBuiltAfterModulesTest.class );
         suite.addTestSuite( MavenITmng4615ValidateRequiredPluginParameterTest.class );
-        suite.addTestSuite( MavenITmng4600DependencyOptionalFlagManagementTest.class );
+        suite.addTestSuite( MavenITmng4600DependencyOptionalFlagManagementTest.class );*/
         suite.addTestSuite( MavenITmng4590ImportedPomUsesSystemPropertiesTest.class );
-        suite.addTestSuite( MavenITmng4586PluginPrefixResolutionFromVersionlessPluginMngtTest.class );
+/*        suite.addTestSuite( MavenITmng4586PluginPrefixResolutionFromVersionlessPluginMngtTest.class );
         suite.addTestSuite( MavenITmng4580ProjectLevelPluginDepUsedForCliInvocInReactorTest.class );
         suite.addTestSuite( MavenITmng4572ModelVersionSurroundedByWhitespaceTest.class );
         suite.addTestSuite( MavenITmng4561MirroringOfPluginRepoTest.class );
@@ -643,9 +643,9 @@ public class IntegrationTestSuite
         suite.addTestSuite( MavenITmng0731LegacyRepoLayoutTest.class );
         suite.addTestSuite( MavenITmng0680ParentBasedirTest.class );
         suite.addTestSuite( MavenITmng0674PluginParameterAliasTest.class );
-        suite.addTestSuite( MavenITmng0666IgnoreLegacyPomTest.class );
+        suite.addTestSuite( MavenITmng0666IgnoreLegacyPomTest.class );*/
         suite.addTestSuite( MavenITmng0557UserSettingsCliOptionTest.class );
-        suite.addTestSuite( MavenITmng0553SettingsAuthzEncryptionTest.class );
+/*        suite.addTestSuite( MavenITmng0553SettingsAuthzEncryptionTest.class );
         suite.addTestSuite( MavenITmng0522InheritedPluginMgmtConfigTest.class );
         suite.addTestSuite( MavenITmng0507ArtifactRelocationTest.class );
         suite.addTestSuite( MavenITmng0505VersionRangeTest.class );
@@ -710,7 +710,7 @@ public class IntegrationTestSuite
         suite.addTestSuite( MavenITmng6210CoreExtensionsCustomScopesTest.class );
         suite.addTestSuite( MavenITmng6352PrintVersionTest.class );
         suite.addTestSuite( MavenITmng6391PrintVersionTest.class );
-        suite.addTestSuite( MavenITmng6558ToolchainsBuildingEventTest.class );
+        suite.addTestSuite( MavenITmng6558ToolchainsBuildingEventTest.class );*/
         /*
          * Add tests in reverse alpha order above.
          */
